@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="45i-MF-y7f">
+    <device id="retina4_0" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="labutaca.png" translatesAutoresizingMaskIntoConstraints="NO" id="xPV-KV-nze">
+                                <rect key="frame" x="176" y="10" width="256" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZj-Yl-f3c">
+                                <rect key="frame" x="159" y="119" width="120" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="btn_holea.png">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AZl-Fa-CTI" kind="show" identifier="sgHolea" id="Zgb-7e-0sr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhD-eR-14q">
+                                <rect key="frame" x="159" y="219" width="296" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="btn_estrenos.png">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AZl-Fa-CTI" kind="show" identifier="sgEstrenos" id="WRB-KY-X9c"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo_ivan.png" translatesAutoresizingMaskIntoConstraints="NO" id="pUd-P4-AhJ">
+                                <rect key="frame" x="499" y="269" width="49" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Asy-lK-Z1q">
+                                <rect key="frame" x="73" y="278" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnInfo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="D9B-3J-9U4"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="labutaca.png" translatesAutoresizingMaskIntoConstraints="NO" id="1lg-eJ-gag">
+                                <rect key="frame" x="37" y="30" width="256" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MfR-Lj-Bdf">
+                                <rect key="frame" x="-50" y="181" width="275" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="btn_nervion.png">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AZl-Fa-CTI" kind="show" identifier="sgNervion" id="Sai-LG-bm6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yK1-Xm-RMN">
+                                <rect key="frame" x="35" y="526" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnInfo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="F1g-fM-kbG"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_ivan.png" translatesAutoresizingMaskIntoConstraints="NO" id="TPA-nk-4Tx">
+                                <rect key="frame" x="255" y="521" width="49" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhY-8a-2Un">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cm2-3f-npe">
+                                <rect key="frame" x="91" y="181" width="294" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="btn_holea.png">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AZl-Fa-CTI" kind="show" identifier="sgHolea" id="b9N-1k-aV8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMp-3s-n8K">
+                                <rect key="frame" x="21" y="317" width="296" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="btn_estrenos.png">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AZl-Fa-CTI" kind="show" identifier="sgEstrenos" id="6rh-40-iGQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dTP-D5-Zh0">
+                                <rect key="frame" x="312" y="119" width="120" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="btn_nervion.png">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AZl-Fa-CTI" kind="show" identifier="sgNervion" id="qIv-aY-Zvp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.058823529411764705" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="xPV-KV-nze"/>
+                                <exclude reference="ZZj-Yl-f3c"/>
+                                <exclude reference="RhD-eR-14q"/>
+                                <exclude reference="pUd-P4-AhJ"/>
+                                <exclude reference="Asy-lK-Z1q"/>
+                                <exclude reference="1lg-eJ-gag"/>
+                                <exclude reference="MfR-Lj-Bdf"/>
+                                <exclude reference="yK1-Xm-RMN"/>
+                                <exclude reference="TPA-nk-4Tx"/>
+                                <exclude reference="rhY-8a-2Un"/>
+                                <exclude reference="cm2-3f-npe"/>
+                                <exclude reference="fMp-3s-n8K"/>
+                                <exclude reference="dTP-D5-Zh0"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <include reference="xPV-KV-nze"/>
+                                <include reference="ZZj-Yl-f3c"/>
+                                <include reference="RhD-eR-14q"/>
+                                <include reference="pUd-P4-AhJ"/>
+                                <include reference="Asy-lK-Z1q"/>
+                                <exclude reference="rhY-8a-2Un"/>
+                                <include reference="dTP-D5-Zh0"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="1lg-eJ-gag"/>
+                                <include reference="MfR-Lj-Bdf"/>
+                                <include reference="yK1-Xm-RMN"/>
+                                <include reference="TPA-nk-4Tx"/>
+                                <include reference="cm2-3f-npe"/>
+                                <include reference="fMp-3s-n8K"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="1l7-zD-ich"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1036" y="257.72113943028489"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="imP-ap-Orn">
+            <objects>
+                <viewController id="AZl-Fa-CTI" customClass="webViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fk5-lp-Ibq"/>
+                        <viewControllerLayoutGuide type="bottom" id="kT8-2p-NXp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OEb-hH-F9p">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K31-my-Yw6">
+                                <rect key="frame" x="0.0" y="44" width="568" height="276"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rje-Rp-u3F">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="bpd-xc-Gkm">
+                                        <barButtonItem key="leftBarButtonItem" title="Atrás" id="yqP-da-HKa">
+                                            <connections>
+                                                <action selector="btnAtras:" destination="AZl-Fa-CTI" id="esD-a0-8tQ"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DX1-m0-6d1">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem title="Atrás" id="e2O-KU-swU"/>
+                                </items>
+                            </toolbar>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IrW-0L-O6e" userLabel="wvWeb">
+                                <rect key="frame" x="0.0" y="67" width="320" height="501"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="okm-qu-Ddl">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem title="Atrás" id="yNl-Ei-aYD">
+                                        <connections>
+                                            <action selector="btnAtras:" destination="AZl-Fa-CTI" id="x9j-kH-htW"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IrW-0L-O6e" firstAttribute="top" secondItem="DX1-m0-6d1" secondAttribute="bottom" id="DYo-3M-iZK"/>
+                            <constraint firstItem="IrW-0L-O6e" firstAttribute="leading" secondItem="OEb-hH-F9p" secondAttribute="leadingMargin" constant="-16" id="Fyw-ER-Fhi"/>
+                            <constraint firstItem="IrW-0L-O6e" firstAttribute="top" secondItem="okm-qu-Ddl" secondAttribute="bottom" id="QPg-nd-kIy"/>
+                            <constraint firstItem="DX1-m0-6d1" firstAttribute="trailing" secondItem="okm-qu-Ddl" secondAttribute="trailing" id="VYR-8R-WyP"/>
+                            <constraint firstItem="okm-qu-Ddl" firstAttribute="leading" secondItem="OEb-hH-F9p" secondAttribute="leadingMargin" constant="-16" id="XDk-QY-PAR"/>
+                            <constraint firstItem="okm-qu-Ddl" firstAttribute="top" secondItem="fk5-lp-Ibq" secondAttribute="bottom" constant="23" id="ctn-D1-ebu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="okm-qu-Ddl" secondAttribute="trailing" constant="-16" id="i9U-KP-RLu"/>
+                            <constraint firstItem="kT8-2p-NXp" firstAttribute="top" secondItem="IrW-0L-O6e" secondAttribute="bottom" id="jxE-99-QAt"/>
+                            <constraint firstItem="DX1-m0-6d1" firstAttribute="leading" secondItem="okm-qu-Ddl" secondAttribute="leading" id="weS-h0-sOD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IrW-0L-O6e" secondAttribute="trailing" constant="-16" id="yvy-5Y-S8d"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="K31-my-Yw6"/>
+                                <exclude reference="Rje-Rp-u3F"/>
+                                <exclude reference="DX1-m0-6d1"/>
+                                <exclude reference="IrW-0L-O6e"/>
+                                <exclude reference="okm-qu-Ddl"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="jxE-99-QAt"/>
+                                <exclude reference="VYR-8R-WyP"/>
+                                <exclude reference="weS-h0-sOD"/>
+                                <exclude reference="XDk-QY-PAR"/>
+                                <exclude reference="ctn-D1-ebu"/>
+                                <exclude reference="i9U-KP-RLu"/>
+                                <exclude reference="DYo-3M-iZK"/>
+                                <exclude reference="Fyw-ER-Fhi"/>
+                                <exclude reference="QPg-nd-kIy"/>
+                                <exclude reference="yvy-5Y-S8d"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <include reference="K31-my-Yw6"/>
+                                <include reference="Rje-Rp-u3F"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="DX1-m0-6d1"/>
+                                <include reference="IrW-0L-O6e"/>
+                                <include reference="okm-qu-Ddl"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="jxE-99-QAt"/>
+                                <include reference="VYR-8R-WyP"/>
+                                <include reference="weS-h0-sOD"/>
+                                <include reference="XDk-QY-PAR"/>
+                                <include reference="ctn-D1-ebu"/>
+                                <include reference="i9U-KP-RLu"/>
+                                <include reference="DYo-3M-iZK"/>
+                                <include reference="Fyw-ER-Fhi"/>
+                                <include reference="QPg-nd-kIy"/>
+                                <include reference="yvy-5Y-S8d"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="wvWebL" destination="K31-my-Yw6" id="gbl-tw-SxO"/>
+                        <outlet property="wvWebP" destination="IrW-0L-O6e" id="tr1-pq-3Vw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qzf-1u-gKH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1666" y="258"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eiD-T3-q8S">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="45i-MF-y7f" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cjV-nA-Afh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="mBn-My-4Vz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zso-fk-SmM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="379.5" y="258"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_estrenos.png" width="308" height="92"/>
+        <image name="btn_holea.png" width="120" height="92"/>
+        <image name="btn_nervion.png" width="120" height="92"/>
+        <image name="labutaca.png" width="340" height="130"/>
+        <image name="logo_ivan.png" width="582" height="420"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="qIv-aY-Zvp"/>
+    </inferredMetricsTieBreakers>
+</document>

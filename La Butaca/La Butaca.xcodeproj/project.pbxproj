@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55DB36B01B3ED03000C3A497 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DB36AF1B3ED03000C3A497 /* main.m */; };
+		55DB36B31B3ED03000C3A497 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DB36B21B3ED03000C3A497 /* AppDelegate.m */; };
+		55DB36B61B3ED03000C3A497 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DB36B51B3ED03000C3A497 /* ViewController.m */; };
+		55DB36B91B3ED03000C3A497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DB36B71B3ED03000C3A497 /* Main.storyboard */; };
+		55DB36BB1B3ED03000C3A497 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DB36BA1B3ED03000C3A497 /* Images.xcassets */; };
+		55DB36BE1B3ED03000C3A497 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55DB36BC1B3ED03000C3A497 /* LaunchScreen.xib */; };
+		55DB36CA1B3ED03000C3A497 /* La_ButacaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DB36C91B3ED03000C3A497 /* La_ButacaTests.m */; };
+		55DB36D51B3EDB0400C3A497 /* Launchscreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55DB36D41B3EDB0400C3A497 /* Launchscreen.jpg */; };
+		55DB36D81B3EE86B00C3A497 /* icono120.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DB36D61B3EE86B00C3A497 /* icono120.png */; };
+		55DB36D91B3EE86B00C3A497 /* icono180.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DB36D71B3EE86B00C3A497 /* icono180.png */; };
+		55DB36DB1B3EE9B000C3A497 /* logo_ivan.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DB36DA1B3EE9B000C3A497 /* logo_ivan.png */; };
+		55DB36DD1B3EEBDA00C3A497 /* labutaca.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DB36DC1B3EEBDA00C3A497 /* labutaca.png */; };
+		55DB36E41B3EEFD800C3A497 /* btn_bormujos.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DB36DF1B3EEFD800C3A497 /* btn_bormujos.png */; };
+		55DB36E61B3EEFD800C3A497 /* btn_holea.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DB36E11B3EEFD800C3A497 /* btn_holea.png */; };
+		55DB36E71B3EEFD800C3A497 /* btn_nervion.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DB36E21B3EEFD800C3A497 /* btn_nervion.png */; };
+		55DB36E91B3EF0ED00C3A497 /* btn_estrenos.png in Resources */ = {isa = PBXBuildFile; fileRef = 55DB36E81B3EF0ED00C3A497 /* btn_estrenos.png */; };
+		55DB36EF1B3F029D00C3A497 /* webViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DB36EE1B3F029D00C3A497 /* webViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55DB36C41B3ED03000C3A497 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55DB36A21B3ED03000C3A497 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55DB36A91B3ED03000C3A497;
+			remoteInfo = "La Butaca";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55CDA1161BADDEC7004C1597 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		55CDA1171BADDEC7004C1597 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		55DB36AA1B3ED03000C3A497 /* La Butaca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "La Butaca.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DB36AE1B3ED03000C3A497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DB36AF1B3ED03000C3A497 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55DB36B11B3ED03000C3A497 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55DB36B21B3ED03000C3A497 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55DB36B41B3ED03000C3A497 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55DB36B51B3ED03000C3A497 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55DB36B81B3ED03000C3A497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55DB36BA1B3ED03000C3A497 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55DB36BD1B3ED03000C3A497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		55DB36C31B3ED03000C3A497 /* La ButacaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "La ButacaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DB36C81B3ED03000C3A497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DB36C91B3ED03000C3A497 /* La_ButacaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = La_ButacaTests.m; sourceTree = "<group>"; };
+		55DB36D41B3EDB0400C3A497 /* Launchscreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Launchscreen.jpg; path = pics/Launchscreen.jpg; sourceTree = "<group>"; };
+		55DB36D61B3EE86B00C3A497 /* icono120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icono120.png; path = pics/icono120.png; sourceTree = "<group>"; };
+		55DB36D71B3EE86B00C3A497 /* icono180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icono180.png; path = pics/icono180.png; sourceTree = "<group>"; };
+		55DB36DA1B3EE9B000C3A497 /* logo_ivan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_ivan.png; path = pics/logo_ivan.png; sourceTree = "<group>"; };
+		55DB36DC1B3EEBDA00C3A497 /* labutaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = labutaca.png; path = pics/labutaca.png; sourceTree = "<group>"; };
+		55DB36DF1B3EEFD800C3A497 /* btn_bormujos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_bormujos.png; path = pics/btn_bormujos.png; sourceTree = "<group>"; };
+		55DB36E11B3EEFD800C3A497 /* btn_holea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_holea.png; path = pics/btn_holea.png; sourceTree = "<group>"; };
+		55DB36E21B3EEFD800C3A497 /* btn_nervion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_nervion.png; path = pics/btn_nervion.png; sourceTree = "<group>"; };
+		55DB36E81B3EF0ED00C3A497 /* btn_estrenos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_estrenos.png; path = pics/btn_estrenos.png; sourceTree = "<group>"; };
+		55DB36ED1B3F029D00C3A497 /* webViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webViewController.h; sourceTree = "<group>"; };
+		55DB36EE1B3F029D00C3A497 /* webViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55DB36A71B3ED03000C3A497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DB36C01B3ED03000C3A497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55DB36A11B3ED03000C3A497 = {
+			isa = PBXGroup;
+			children = (
+				55DB36AC1B3ED03000C3A497 /* La Butaca */,
+				55DB36C61B3ED03000C3A497 /* La ButacaTests */,
+				55DB36AB1B3ED03000C3A497 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55DB36AB1B3ED03000C3A497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55DB36AA1B3ED03000C3A497 /* La Butaca.app */,
+				55DB36C31B3ED03000C3A497 /* La ButacaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55DB36AC1B3ED03000C3A497 /* La Butaca */ = {
+			isa = PBXGroup;
+			children = (
+				55DB36D31B3ED0A300C3A497 /* Pics */,
+				55DB36B11B3ED03000C3A497 /* AppDelegate.h */,
+				55DB36B21B3ED03000C3A497 /* AppDelegate.m */,
+				55DB36B41B3ED03000C3A497 /* ViewController.h */,
+				55DB36B51B3ED03000C3A497 /* ViewController.m */,
+				55DB36ED1B3F029D00C3A497 /* webViewController.h */,
+				55DB36EE1B3F029D00C3A497 /* webViewController.m */,
+				55DB36B71B3ED03000C3A497 /* Main.storyboard */,
+				55DB36BA1B3ED03000C3A497 /* Images.xcassets */,
+				55DB36BC1B3ED03000C3A497 /* LaunchScreen.xib */,
+				55DB36AD1B3ED03000C3A497 /* Supporting Files */,
+			);
+			path = "La Butaca";
+			sourceTree = "<group>";
+		};
+		55DB36AD1B3ED03000C3A497 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55DB36AE1B3ED03000C3A497 /* Info.plist */,
+				55DB36AF1B3ED03000C3A497 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55DB36C61B3ED03000C3A497 /* La ButacaTests */ = {
+			isa = PBXGroup;
+			children = (
+				55DB36C91B3ED03000C3A497 /* La_ButacaTests.m */,
+				55DB36C71B3ED03000C3A497 /* Supporting Files */,
+			);
+			path = "La ButacaTests";
+			sourceTree = "<group>";
+		};
+		55DB36C71B3ED03000C3A497 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55DB36C81B3ED03000C3A497 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55DB36D31B3ED0A300C3A497 /* Pics */ = {
+			isa = PBXGroup;
+			children = (
+				55DB36E81B3EF0ED00C3A497 /* btn_estrenos.png */,
+				55DB36DF1B3EEFD800C3A497 /* btn_bormujos.png */,
+				55DB36E11B3EEFD800C3A497 /* btn_holea.png */,
+				55DB36E21B3EEFD800C3A497 /* btn_nervion.png */,
+				55DB36DC1B3EEBDA00C3A497 /* labutaca.png */,
+				55DB36DA1B3EE9B000C3A497 /* logo_ivan.png */,
+				55DB36D61B3EE86B00C3A497 /* icono120.png */,
+				55DB36D71B3EE86B00C3A497 /* icono180.png */,
+				55DB36D41B3EDB0400C3A497 /* Launchscreen.jpg */,
+			);
+			name = Pics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55DB36A91B3ED03000C3A497 /* La Butaca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DB36CD1B3ED03000C3A497 /* Build configuration list for PBXNativeTarget "La Butaca" */;
+			buildPhases = (
+				55DB36A61B3ED03000C3A497 /* Sources */,
+				55DB36A71B3ED03000C3A497 /* Frameworks */,
+				55DB36A81B3ED03000C3A497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "La Butaca";
+			productName = "La Butaca";
+			productReference = 55DB36AA1B3ED03000C3A497 /* La Butaca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55DB36C21B3ED03000C3A497 /* La ButacaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DB36D01B3ED03000C3A497 /* Build configuration list for PBXNativeTarget "La ButacaTests" */;
+			buildPhases = (
+				55DB36BF1B3ED03000C3A497 /* Sources */,
+				55DB36C01B3ED03000C3A497 /* Frameworks */,
+				55DB36C11B3ED03000C3A497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55DB36C51B3ED03000C3A497 /* PBXTargetDependency */,
+			);
+			name = "La ButacaTests";
+			productName = "La ButacaTests";
+			productReference = 55DB36C31B3ED03000C3A497 /* La ButacaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55DB36A21B3ED03000C3A497 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ivan Da Palma";
+				TargetAttributes = {
+					55DB36A91B3ED03000C3A497 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = S755L2L5RH;
+					};
+					55DB36C21B3ED03000C3A497 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = S755L2L5RH;
+						TestTargetID = 55DB36A91B3ED03000C3A497;
+					};
+				};
+			};
+			buildConfigurationList = 55DB36A51B3ED03000C3A497 /* Build configuration list for PBXProject "La Butaca" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55DB36A11B3ED03000C3A497;
+			productRefGroup = 55DB36AB1B3ED03000C3A497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55DB36A91B3ED03000C3A497 /* La Butaca */,
+				55DB36C21B3ED03000C3A497 /* La ButacaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55DB36A81B3ED03000C3A497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DB36E91B3EF0ED00C3A497 /* btn_estrenos.png in Resources */,
+				55DB36DB1B3EE9B000C3A497 /* logo_ivan.png in Resources */,
+				55DB36E41B3EEFD800C3A497 /* btn_bormujos.png in Resources */,
+				55DB36D91B3EE86B00C3A497 /* icono180.png in Resources */,
+				55DB36E61B3EEFD800C3A497 /* btn_holea.png in Resources */,
+				55DB36E71B3EEFD800C3A497 /* btn_nervion.png in Resources */,
+				55DB36B91B3ED03000C3A497 /* Main.storyboard in Resources */,
+				55DB36BE1B3ED03000C3A497 /* LaunchScreen.xib in Resources */,
+				55DB36DD1B3EEBDA00C3A497 /* labutaca.png in Resources */,
+				55DB36D81B3EE86B00C3A497 /* icono120.png in Resources */,
+				55DB36D51B3EDB0400C3A497 /* Launchscreen.jpg in Resources */,
+				55DB36BB1B3ED03000C3A497 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DB36C11B3ED03000C3A497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55DB36A61B3ED03000C3A497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DB36B61B3ED03000C3A497 /* ViewController.m in Sources */,
+				55DB36B31B3ED03000C3A497 /* AppDelegate.m in Sources */,
+				55DB36B01B3ED03000C3A497 /* main.m in Sources */,
+				55DB36EF1B3F029D00C3A497 /* webViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DB36BF1B3ED03000C3A497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DB36CA1B3ED03000C3A497 /* La_ButacaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55DB36C51B3ED03000C3A497 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55DB36A91B3ED03000C3A497 /* La Butaca */;
+			targetProxy = 55DB36C41B3ED03000C3A497 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55DB36B71B3ED03000C3A497 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DB36B81B3ED03000C3A497 /* Base */,
+				55CDA1161BADDEC7004C1597 /* es */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55DB36BC1B3ED03000C3A497 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DB36BD1B3ED03000C3A497 /* Base */,
+				55CDA1171BADDEC7004C1597 /* es */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55DB36CB1B3ED03000C3A497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55DB36CC1B3ED03000C3A497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55DB36CE1B3ED03000C3A497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = S755L2L5RH;
+				INFOPLIST_FILE = "La Butaca/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cursoXcode.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		55DB36CF1B3ED03000C3A497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = S755L2L5RH;
+				INFOPLIST_FILE = "La Butaca/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cursoXcode.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		55DB36D11B3ED03000C3A497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S755L2L5RH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "La ButacaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cursoXcode.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/La Butaca.app/La Butaca";
+			};
+			name = Debug;
+		};
+		55DB36D21B3ED03000C3A497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S755L2L5RH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "La ButacaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cursoXcode.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/La Butaca.app/La Butaca";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55DB36A51B3ED03000C3A497 /* Build configuration list for PBXProject "La Butaca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DB36CB1B3ED03000C3A497 /* Debug */,
+				55DB36CC1B3ED03000C3A497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DB36CD1B3ED03000C3A497 /* Build configuration list for PBXNativeTarget "La Butaca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DB36CE1B3ED03000C3A497 /* Debug */,
+				55DB36CF1B3ED03000C3A497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DB36D01B3ED03000C3A497 /* Build configuration list for PBXNativeTarget "La ButacaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DB36D11B3ED03000C3A497 /* Debug */,
+				55DB36D21B3ED03000C3A497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55DB36A21B3ED03000C3A497 /* Project object */;
+}
